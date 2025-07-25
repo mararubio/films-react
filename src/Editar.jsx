@@ -50,7 +50,7 @@ export default function Editar() {
     }, [id, films, token]) // Se renderiza cuando cambie alguno de estos 3.
 
     if (token == "") {
-        return <Navigate to="/login" /> // Sin token redirigimos al "/login"
+        return <Navigate to="/" /> // Sin token redirigimos al "/login"
     } else {
         return <> 
         {/* Menú nav */}
