@@ -9,7 +9,7 @@ export default function Inicio() {
     let navigate = useNavigate() // Redirigir
     let { token, setToken, user, setUser } = useContext(Context) // Necesitamos el token
     if (token == "") {
-        return <Navigate to="/" /> // Sin token redirigimos al login
+        return <Navigate to="/login" /> // Sin token redirigimos al login
     } else {
         return <>
             <Navegacion />
