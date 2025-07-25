@@ -38,7 +38,7 @@ export default function Films() {
     }, [])
 
     if (token == "") { // Sin token redirigir al "/login"
-        return <Navigate to="/login" />
+        return <Navigate to="https://api-films-93ur.onrender.com/login" />
     } else {
         return (
             <>
