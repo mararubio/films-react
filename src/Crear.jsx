@@ -15,7 +15,7 @@ export default function Create() {
 
     // Sin el token redirección al login.
     if (token == "") {
-        return <Navigate to="/login" />
+        return <Navigate to="/" />
     } else {
         return <>
             <Navegacion />
