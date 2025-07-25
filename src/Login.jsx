@@ -6,13 +6,11 @@ import "./index.css" // Importar el css
 export default function Login() {
 
     let navigate = useNavigate() // Redirigir a "/"
-    let { token, setToken } = useContext(Context) // Necesitamos el token
+    let { setToken } = useContext(Context) // Necesitamos el token
     let [inputUser, setInputUser] = useState("") // El valor del input de user
     let [inputPassword, setInputPassword] = useState("") // El valor del input del password
     let [error, setError] = useState(null) // Mensaje de error para el usuario
-    if (token == "") {
-        return <Navigate to="/" />
-    } else {
+   
         return <>
             <section className="Section-login">
                 <img src="./logo-filmtap.webp" alt="Logo de FilmTap" className="Logo" />
@@ -66,5 +64,5 @@ export default function Login() {
                 <p className="Footer-copy">&copy; 2025 Maria Rubio</p>
             </footer>
         </>
-    }
+    
 }
