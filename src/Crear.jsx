@@ -15,7 +15,7 @@ export default function Create() {
 
     // Sin el token redirección al login.
     if (token == "") {
-        return <Navigate to="https://api-films-93ur.onrender.com/login" />
+        return <Navigate to="/login" />
     } else {
         return <>
             <Navegacion />
