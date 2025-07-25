@@ -6,7 +6,7 @@ import "./index.css" // Importar el css
 export default function Login() {
 
     let navigate = useNavigate() // Redirigir a "/"
-    let { setToken } = useContext(Context) // Necesitamos el token
+    let { token, setToken } = useContext(Context) // Necesitamos el token
     let [inputUser, setInputUser] = useState("") // El valor del input de user
     let [inputPassword, setInputPassword] = useState("") // El valor del input del password
     let [error, setError] = useState(null) // Mensaje de error para el usuario
