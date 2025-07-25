@@ -10,7 +10,7 @@ export default function Login() {
     let [inputUser, setInputUser] = useState("") // El valor del input de user
     let [inputPassword, setInputPassword] = useState("") // El valor del input del password
     let [error, setError] = useState(null) // Mensaje de error para el usuario
-   try{
+    
         return <>
             <section className="Section-login">
                 <img src="./logo-filmtap.webp" alt="Logo de FilmTap" className="Logo" />
@@ -64,6 +64,5 @@ export default function Login() {
                 <p className="Footer-copy">&copy; 2025 Maria Rubio</p>
             </footer>
         </>
-   }catch(error){ error => navigate("/") }
     
 }
