@@ -33,7 +33,7 @@ export default function Inicio() {
             </main>
             {/* Footer */}
             <footer className="Footer">
-                <p className="Footer-copy">&copy; 2025 Maria Rubio</p>
+                <p className="Footer-copy">&copy; 2025 Mara Rubio</p>
             </footer>
         </>
     }
