@@ -61,7 +61,7 @@ export default function Login() {
             {/* Si no es null, es visible el Error */}
 
             <footer className="Footer">
-                <p className="Footer-copy">&copy; 2025 Maria Rubio</p>
+                <p className="Footer-copy">&copy; 2025 Mara Rubio</p>
             </footer>
         </>
     
